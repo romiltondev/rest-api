@@ -8,6 +8,4 @@ import com.devromilton.restapi.model.Cliente;
 
 @Repository
 public interface ClientRepository extends JpaRepository<Cliente,Long> {
-
-    
 }
