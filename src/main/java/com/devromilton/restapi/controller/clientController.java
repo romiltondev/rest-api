@@ -25,7 +25,7 @@ public class clientController {
         return clientrepository.findAll();
     }
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus
     public Cliente adicionar(@RequestBody Cliente cliente){
         return clientrepository.save(cliente);
     }
